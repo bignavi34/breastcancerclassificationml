@@ -79,7 +79,7 @@ s3transfer==0.11.3
 setuptools==75.8.2
 six==1.17.0
 sqlparse==0.5.3
-tensorflow==2.11.0
+tensorflow==2.12
 text-unidecode==1.3
 toml==0.10.2
 tqdm==4.67.1

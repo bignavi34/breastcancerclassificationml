@@ -1,9 +1,0 @@
-build:
-  builder: 'paketobuildpacks/builder:base'
-
-install:
-  - pip install -r requirements.txt
-
-start:
-  - python manage.py migrate
-  - gunicorn cancer.wsgi
